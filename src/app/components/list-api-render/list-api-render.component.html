@@ -1,0 +1,18 @@
+<section class="classs">
+
+    <h1>Animais</h1>
+
+    <ul>
+
+        <li *ngFor= "let animal of animals">Nome: {{animal.name}}
+            <button (click)="showDetails(animal)">Detalhes</button>
+            <button (click)="remove(animal)">Remover</button>
+
+        </li>
+
+    </ul>
+    <p>{{animalDetails}}</p>
+
+
+
+</section>

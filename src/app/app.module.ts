@@ -1,6 +1,10 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+import { FormsModule } from '@angular/forms';
+import {HttpClientModule} from '@angular/common/http'
+
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { FirstComponentComponent } from './components/first-component/first-component.component';
@@ -14,6 +18,8 @@ import { TestButtonComponent } from './components/test-button/test-button.compon
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { ListGamesRenderComponent } from './components/list-games-render/list-games-render.component';
 import { PipesComponent } from './components/pipes/pipes.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { ListApiRenderComponent } from './components/list-api-render/list-api-render.component';
 
 @NgModule({
   declarations: [
@@ -28,11 +34,15 @@ import { PipesComponent } from './components/pipes/pipes.component';
     TestButtonComponent,
     ListRenderComponent,
     ListGamesRenderComponent,
-    PipesComponent
+    PipesComponent,
+    TwoWayBindingComponent,
+    ListApiRenderComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

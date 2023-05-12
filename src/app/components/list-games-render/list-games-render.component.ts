@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 import { Games } from './Games';
+import { ListGamesServiceService } from 'src/app/gamesService/list-games-service.service';
 
 @Component({
   selector: 'app-list-games-render',
@@ -45,4 +46,12 @@ export class ListGamesRenderComponent {
       
     }
 
+    constructor(private listGamesServiceService: ListGamesServiceService) {}
+
+    removeGame(game:Games) {
+
+      this.games = this.listGamesServiceService.remove(this.games,game)
+    }
+
 }
+

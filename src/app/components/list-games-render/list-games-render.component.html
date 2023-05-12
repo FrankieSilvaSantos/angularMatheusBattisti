@@ -5,6 +5,7 @@
     <ul>
         <li *ngFor="let game of games"> Nome: {{game.name}}
             <button (click)="showDetails(game)">Detalhes</button>
+            <button (click)="removeGame(game)">Remover</button>
 
         </li>
 
