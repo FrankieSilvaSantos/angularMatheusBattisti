@@ -1,0 +1,3 @@
+[ngClass]="classes"
+
+[ngStyle]="{'font-size': size + 'px', 'font-family': font, 'color': color}"

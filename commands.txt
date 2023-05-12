@@ -5,3 +5,9 @@ ng new <nomeDoProjeto>
 ng serve -o
 
 ng generate component components/first-component
+
+ng generate service services/list-services
+
+npm i json-server
+
+npm run server
