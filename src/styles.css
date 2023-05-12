@@ -16,3 +16,7 @@
     padding: 15px;
     color: red;
  }
+
+.class {
+   border: 1px solid red;
+}
