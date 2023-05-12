@@ -1,0 +1,14 @@
+<section class="class">
+
+    <h1>Lista de Games</h1>
+
+    <ul>
+        <li *ngFor="let game of games"> Nome: {{game.name}}
+            <button (click)="showDetails(game)">Detalhes</button>
+
+        </li>
+
+    </ul>
+        <h3> {{gameDetails}}</h3>
+</section>
+

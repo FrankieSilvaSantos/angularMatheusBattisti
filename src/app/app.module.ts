@@ -12,6 +12,8 @@ import { EmitterComponent } from './components/emitter/emitter.component';
 import { ChangeNumberComponent } from './components/change-number/change-number.component';
 import { TestButtonComponent } from './components/test-button/test-button.component';
 import { ListRenderComponent } from './components/list-render/list-render.component';
+import { ListGamesRenderComponent } from './components/list-games-render/list-games-render.component';
+import { PipesComponent } from './components/pipes/pipes.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ListRenderComponent } from './components/list-render/list-render.compon
     EmitterComponent,
     ChangeNumberComponent,
     TestButtonComponent,
-    ListRenderComponent
+    ListRenderComponent,
+    ListGamesRenderComponent,
+    PipesComponent
   ],
   imports: [
     BrowserModule,
