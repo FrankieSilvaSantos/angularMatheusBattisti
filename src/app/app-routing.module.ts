@@ -14,6 +14,8 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
 import { GetIdComponent } from './components/get-id/get-id.component';
 import { ItemIdComponent } from './components/item-id/item-id.component';
 import { AllBooksComponent } from './activatedRoute/all-books/all-books.component';
+import { ListAnimal1Component } from './activatedRoute2/list-animal1/list-animal1.component';
+import { ItemAnimalComponent } from './activatedRoute2/item-animal/item-animal.component';
 
 const routes: Routes = [
   {path:'firstComponent',component: FirstComponentComponent},
@@ -29,6 +31,8 @@ const routes: Routes = [
   {path:'itemDetail/:id', component:ItemDetailComponent},
   {path:'getId',component:GetIdComponent},
   {path:'itemId/:id',component:ItemIdComponent},
+  {path:'listAnimal1',component:ListAnimal1Component},
+  {path:'itemAnimal/:id',component:ItemAnimalComponent},
 
 
   {path:'allBooks/:id',component:AllBooksComponent}

@@ -1,0 +1,13 @@
+<section>
+
+<h1>List Animal</h1>
+
+    <ul>
+        <li *ngFor="let animal of animals" ><button [ngClass]="listAnimal"><a routerLink="/itemAnimal/{{animal.id}}">Nome: {{animal.name}}</a></button>
+            
+
+
+        </li>
+    </ul>
+
+</section>

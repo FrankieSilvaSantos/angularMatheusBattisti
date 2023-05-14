@@ -29,6 +29,8 @@ import { ItemDetailComponent } from './components/item-detail/item-detail.compon
 import { GetIdComponent } from './components/get-id/get-id.component';
 import { ItemIdComponent } from './components/item-id/item-id.component';
 import { AllBooksComponent } from './activatedRoute/all-books/all-books.component';
+import { ListAnimal1Component } from './activatedRoute2/list-animal1/list-animal1.component';
+import { ItemAnimalComponent } from './activatedRoute2/item-animal/item-animal.component';
 
 @NgModule({
   declarations: [
@@ -54,7 +56,9 @@ import { AllBooksComponent } from './activatedRoute/all-books/all-books.componen
     ItemDetailComponent,
     GetIdComponent,
     ItemIdComponent,
-    AllBooksComponent
+    AllBooksComponent,
+    ListAnimal1Component,
+    ItemAnimalComponent
   ],
   imports: [
     BrowserModule,
