@@ -25,4 +25,9 @@ export class ListApiRenderService {
 
   }
 
+  getItem(id:number):Observable<Animal> {
+
+      return this.http.get<Animal>(`${this.apiUrl}/${id}`) 
+  }
+
 }

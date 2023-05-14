@@ -23,6 +23,7 @@ export class ListApiRenderComponent {
   }
 
   animal:Animal = {
+    id:2,
     name:'teste',
     type:'alguma coisa',
     age:15

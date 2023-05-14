@@ -4,7 +4,9 @@
 
     <ul>
 
-        <li *ngFor= "let animal of animals">Nome: {{animal.name}}
+        <li *ngFor= "let animal of animals">ID: <a routerLink="/itemDetail/{{animal.id}}">{{animal.id}}</a> 
+            -- Nome: {{animal.name}}
+
             <button (click)="showDetails(animal)">Detalhes</button>
             <button (click)="remove(animal)">Remover</button>
 

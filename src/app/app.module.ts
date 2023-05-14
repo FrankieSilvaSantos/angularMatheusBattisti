@@ -20,6 +20,15 @@ import { ListGamesRenderComponent } from './components/list-games-render/list-ga
 import { PipesComponent } from './components/pipes/pipes.component';
 import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
 import { ListApiRenderComponent } from './components/list-api-render/list-api-render.component';
+import { UsersComponent } from './components/users/users.component';
+import { Users2Component } from './components/users2/users2.component';
+import { Users3Component } from './components/users3/users3.component';
+import { Users4Component } from './components/users4/users4.component';
+import { If2Component } from './components/if2/if2.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { GetIdComponent } from './components/get-id/get-id.component';
+import { ItemIdComponent } from './components/item-id/item-id.component';
+import { AllBooksComponent } from './activatedRoute/all-books/all-books.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +45,16 @@ import { ListApiRenderComponent } from './components/list-api-render/list-api-re
     ListGamesRenderComponent,
     PipesComponent,
     TwoWayBindingComponent,
-    ListApiRenderComponent
+    ListApiRenderComponent,
+    UsersComponent,
+    Users2Component,
+    Users3Component,
+    Users4Component,
+    If2Component,
+    ItemDetailComponent,
+    GetIdComponent,
+    ItemIdComponent,
+    AllBooksComponent
   ],
   imports: [
     BrowserModule,

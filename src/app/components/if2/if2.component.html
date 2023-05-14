@@ -1,0 +1,36 @@
+<section class="class">
+
+<h1>Practicing ngIf</h1>
+
+<p *ngIf="name">Meu nome é? {{name}} </p>
+
+<p *ngIf="name2=='Frankie'; else nameResponse">{{name2}}</p>
+
+<ng-template #nameResponse>{{texto}}</ng-template>
+
+</section>
+
+<br>
+<section class="class">
+
+    <h1>Using ngModel</h1>
+    <ul>
+        <li> <input type="text" name="" id=""  [(ngModel)]="nameValue">
+           
+        </li>
+
+        <p >Value typed: {{nameValue}}</p>
+
+
+    </ul>
+
+</section>
+
+<section [ngClass]="background">
+    <h1 [ngStyle]="{backgroundColor: color }">using ngstyle</h1>
+
+    <p [ngStyle]="{color: p ===true ? 'green' : 'purple'}">{{p}}</p>
+
+    <p [ngStyle]="{'font-size':'70px', 'font-family':'Italic'}">Dynamic</p>
+
+</section>

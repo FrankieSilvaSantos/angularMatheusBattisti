@@ -5,13 +5,33 @@ import { ListGamesRenderComponent } from './components/list-games-render/list-ga
 import { ListRenderComponent } from './components/list-render/list-render.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
 import { ListApiRenderComponent } from './components/list-api-render/list-api-render.component';
+import { UsersComponent } from './components/users/users.component';
+import { Users2Component } from './components/users2/users2.component';
+import { Users3Component } from './components/users3/users3.component';
+import { Users4Component } from './components/users4/users4.component';
+import { If2Component } from './components/if2/if2.component';
+import { ItemDetailComponent } from './components/item-detail/item-detail.component';
+import { GetIdComponent } from './components/get-id/get-id.component';
+import { ItemIdComponent } from './components/item-id/item-id.component';
+import { AllBooksComponent } from './activatedRoute/all-books/all-books.component';
 
 const routes: Routes = [
   {path:'firstComponent',component: FirstComponentComponent},
   {path:'listGames',component:ListGamesRenderComponent},
   {path:'list',component:ListRenderComponent},
   {path:'ifRender', component:IfRenderComponent},
-  {path:'animaisApi', component:ListApiRenderComponent}
+  {path:'animaisApi', component:ListApiRenderComponent},
+  {path:'usersAPI',component:UsersComponent},
+  {path:'usersAPI2',component: Users2Component},
+  {path:'usersAPI3',component:Users3Component},
+  {path:'usersAPI4',component:Users4Component},
+  {path:'if2', component:If2Component},
+  {path:'itemDetail/:id', component:ItemDetailComponent},
+  {path:'getId',component:GetIdComponent},
+  {path:'itemId/:id',component:ItemIdComponent},
+
+
+  {path:'allBooks/:id',component:AllBooksComponent}
 
 ];
 
